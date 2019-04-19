@@ -1,0 +1,23 @@
+body {
+    background-color: #303030;
+    color: white;
+}
+
+.photo {
+    margin-top: 5px;
+    margin-left: 4px;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+.red-panel {
+    background-color: #e91e63;
+
+}
+
+.action-link a {
+    color: #dcd9e6;
+}
