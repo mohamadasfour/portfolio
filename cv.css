@@ -1,8 +1,26 @@
 body {
     background-color: #303030;
     color: white;
+    position: relative;
+}
+.fix-me1{
+    position: fixed;
+    top: 350px;
 }
 
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+.fix-me2{
+    position: fixed;
+    top: 450px;
+}
+.fix-me3{
+    position: fixed;
+    top: 500px;
+}
 .action-link a:hover {
     color: blue;
     background-color: #ccc;
@@ -12,15 +30,18 @@ body {
     color: darksalmon;
 }
 
-
 .photo {
-    
+  
     margin-top: 5px;
     margin-left: 4px;
   
 }
-
-
+.button{
+    background-color: #000;
+    color:#fff;
+    padding: 8px 8px;
+    border:none;
+}
 
 img {
 
@@ -34,4 +55,9 @@ img {
 
 .action-link a {
     color: #dcd9e6;
+    
+}
+
+.button:hover{
+    background-color: red;
 }
