@@ -2,49 +2,28 @@ body {
     background-color: #303030;
     color: white;
 }
-.action-link a:hover{
+
+.action-link a:hover {
     color: blue;
     background-color: #ccc;
 }
-.action-link a:active{
+
+.action-link a:active {
     color: darksalmon;
 }
 
+
 .photo {
-    opacity: 1;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    
     margin-top: 5px;
     margin-left: 4px;
-    position: relative;
+  
+}
 
-}
-.overlay{
-    position: absolute; 
-  bottom: 0; 
- 
-  color: #f1f1f1; 
-  background-color: #e91e63;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 18px;
-  padding: 10px;
-  margin-left: 120px;
-  margin-bottom: 45px;
-  text-align: center;
-}
-.photo:hover .overlay {
-    opacity: 1;
-  }
-.text {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+
+
 img {
-    
+
     border-radius: 50%;
 }
 

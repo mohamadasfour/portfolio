@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="cv.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="animate.css">
 </head>
 
 <body>
@@ -19,16 +20,15 @@
             <div class="row">
 
                 <div class="col-lg">
-                    <div class="photo text-center">
+                    <div class="photo text-center wow heartBeat" data-wow-duration="2s" data-wow-offset="40" data-wow-delay="0s">
                         <img class="image" src="me.jpeg" alt="image of me" width=260px>
-                        <div class="overlay">Mohamad Asfour</div>
                     </div>
                 </div>
 
-                <div class="col-lg">
+                <div class="col-lg wow fadeInRight" data-wow-duration="2s" data-wow-offset="70" data-wow-delay="1s"">
                     <div class="info">
                         <h1>Mohamad Asfour</h1>
-                        <p class="mb-2"><strong>Front-end Developer</strong></p>
+                        <p class="mb-2" ><strong>Front-end Developer</strong></p>
 
                         <p class="action-link">
                             <a href="#">
@@ -75,8 +75,8 @@
     </section>
 
     <section class="py-5">
-        <div class="summary container">
-            <h2><em><b>Summary:</em></b></h2>
+        <div class="summary container ">
+            <h2><em><b>Summary</em></b></h2>
             <p>I am Syrian man, married, motivated, Hard worker, Team worker and Responsible.</br>
                 I am studied at Islamic University Of Lebanon in a collage of Law.
                 but didn't complete it because of war situation in my Country. I had to came to Turkey from three years
@@ -96,25 +96,26 @@
     <section class="red-panel py-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg">
+                <div class="col-lg wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
                     <div class="qualifications">
-                        <h2><i class="fas fa-laptop-code"></i></i> <em><b>Skills:</em></b></h2>
+                        <h2><i class="fas fa-laptop-code"></i></i> <em><b>Skills</em></b></h2>
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
                             <li>JavaScript</li>
                             <li>Git</li>
                             <li>GitHub</li>
                             <li>npm</li>
+                            <li>ES6</li>
                             <li>bootstrap</li>
                             <li>Java</li>
                             <li>Android Studio</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg">
-                    <div class="education">
-                        <h2> <i class="fas fa-graduation-cap"></i> <em><b>Eduaction:</em></b></h2>
+                <div class="col-lg wow fadeInRight" data-wow-duration="2s" data-wow-offset="300">
+                    <div class="education" >
+                        <h2> <i class="fas fa-graduation-cap"></i> <em><b>Eduaction</em></b></h2>
                         <ul>
                             <li>high school from 2009 to 2010</li>
                             <li>BA at Islamic University Of Lebanon from 2010 to 2013</li>
@@ -129,9 +130,9 @@
     </section>
 
     <section class="py-5">
-        <div class="container">
+        <div class="container wow zoomIn" data-wow-duration="2s" data-wow-offset="70" data-wow-delay="1s">
             <div class="edu">
-                <h2><em><b>Courses I attented: </em></b></h2>
+                <h2><em><b>Courses I attented </em></b></h2>
                 <ol>
                     <li>Google Adword from 2016 to 2017</li>
                     <li>Online Markting Fundemuntels by Google 2016</li>
@@ -142,7 +143,10 @@
         </div>
     </section>
 
-
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>
