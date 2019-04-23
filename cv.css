@@ -1,25 +1,29 @@
 body {
     background-color: #303030;
     color: white;
-    position: relative;
+    /* position: relative; */
 }
 .fix-me1{
     position: fixed;
     top: 350px;
+    
 }
 
 .fix-me {
     position: fixed;
     top: 400px;
+   
 }
 
 .fix-me2{
     position: fixed;
     top: 450px;
+   
 }
 .fix-me3{
     position: fixed;
     top: 500px;
+    
 }
 .action-link a:hover {
     color: blue;
