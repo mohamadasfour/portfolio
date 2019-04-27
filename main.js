@@ -21,15 +21,9 @@
 //   }
 //   scroll();
 window.onscroll = () => {
-
-    const Ypos = window.pageYOffset;
-  
-    if(Ypos < 200) document.getElementById("target-id").style.visibility = "hidden";
-   
-    else{
-        document.getElementById("target-id").style.visibility = "visible";
-    }
-  
+    const yPos = window.pageYOffset;
+    const socialContainer = document.getElementById('social-container');
+    (yPos > 200) ? socialContainer.classList.add('shown') : socialContainer.classList.remove('shown');
   }
   onscroll();
 
