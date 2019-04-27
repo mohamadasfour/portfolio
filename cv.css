@@ -21,11 +21,25 @@ body {
     margin-left: 4px;
 
 }
+nav{
+    margin-top: 3px ;
+    color: #83ce82;
+    background-color: #ccc;
+    text-shadow: 0px 2px 2px black;
+    position: fixed;
+    top: 0;
+    left:0;
+}
 
-
+nav span{
+    color: #e91e63;
+}
+.py-5{
+    line-height: 2em;
+}
 
 img {
-
+    box-shadow: 0px 1px 5px black;
     border-radius: 50%;
 }
 
@@ -41,8 +55,13 @@ img {
 
 }
 
-
-
+.info h1{
+    box-shadow: 0px 1px 2px black;
+    text-shadow: 0px 2px 2px black;
+}
+.info .mb-2{
+    text-shadow: 0px 2px 2px black;
+}
 .social {
     background-color: #000;
     width: 40px;
@@ -72,4 +91,53 @@ img {
 
 #social-container.shown {
     transform: translate3d(0, 0, 0);
+}
+.social:hover{
+background-color: blue;
+}
+.social a:hover{
+    background-color: #865a62;
+}
+footer{
+    text-align: center;
+    background-color: #e91e63;
+    color: #000;
+    font-weight: bolder;
+    font-size: 19px;
+    box-shadow: 0px 1px 2px black;
+    text-shadow: 0px 1px 2px black;
+}
+.summary{
+    box-shadow: 2px 0px 2px black;
+    text-shadow: 0px 2px 2px black;
+}
+.edu{
+    line-height: 2em;
+ 
+}
+.education{
+    line-height: 2.5em;
+    font-size: 17px;
+}
+#about-resume{
+    background: #333; 
+    color:#fff;
+    margin-left: 5px;
+    padding-left: 5px;
+  
+}
+.download{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #2b1d22;
+}
+
+.qualifications{
+    
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.qualifications li{
+    margin-left: 0px;
+    padding-left: 1px;
 }
